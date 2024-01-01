@@ -1,0 +1,140 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr1ce_admins",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr1ce_admin",
+    "MaxGetRowsCount": 500,
+    "Name": "Admins",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cr1ce_address": "Address",
+      "cr1ce_admin_AsyncOperations": "System Jobs",
+      "cr1ce_admin_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr1ce_admin_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr1ce_admin_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr1ce_admin_ProcessSession": "Process Sessions",
+      "cr1ce_admin_SyncErrors": "Sync Errors",
+      "cr1ce_adminid": "Admin ",
+      "cr1ce_contactnumber": "Contact Number",
+      "cr1ce_customername": "Customer Name",
+      "cr1ce_email": "Email",
+      "cr1ce_product": "Product",
+      "cr1ce_quantity": "Quantity",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Admins",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Admins (Views)",
+    "Name": "_cr1ce_admin_views",
+    "RelatedEntityName": "Admins",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "1a52607b-fc43-47c2-b114-32953881ba7c": "Inactive Admins",
+      "1e9eb928-edc3-433a-8239-542e0d841673": "Admin  Associated View",
+      "3de48564-f6eb-48d8-b0aa-108b7d66ea54": "Admin  Lookup View",
+      "4715f580-092e-492b-95bb-2c0db7ab16e5": "Admin  Advanced Find View",
+      "9447f2de-4d76-40e6-a932-a21925d555a6": "Active Admins"
+    }
+  },
+  {
+    "DisplayName": "Status (Admins)_1",
+    "Name": "cr1ce_admin_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Admins"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Admins",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Admins)_1",
+    "Name": "cr1ce_admin_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Admins"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Admins",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (Admins)",
+    "Name": "new_reserveentity_rp53fd1p1ekxpa_t7_2c724e5a2e_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Admins"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Admins",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Admins)",
+    "Name": "new_reserveentity_rp53fd1p1ekxpa_t7_2c724e5a2e_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Admins"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Admins",
+    "Type": "OptionSetInfo"
+  }
+]
