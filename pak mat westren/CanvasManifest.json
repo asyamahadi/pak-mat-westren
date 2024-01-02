@@ -95,7 +95,7 @@
       "useguiddatatypes": true,
       "usenonblockingonstartrule": true,
       "webbarcodescanner": false,
-      "zeroalltabindexes": true
+      "zeroalltabindexes": false
     },
     "Author": "",
     "BindingErrorCount": 0,
@@ -113,7 +113,7 @@
     "FileID": "b02645f0-79f3-4e3f-a4d2-a50879b1088a",
     "Id": "b02645f0-79f3-4e3f-a4d2-a50879b1088a",
     "InstrumentationKey": "",
-    "ManualOfflineProfileId": null,
+    "ManualOfflineProfileId": "",
     "Name": "Admin - copy",
     "OriginatingVersion": "1.336",
     "ParserErrorCount": 0,

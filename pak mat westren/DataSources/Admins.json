@@ -58,7 +58,7 @@
     }
   },
   {
-    "DisplayName": "Status (Admins)_1",
+    "DisplayName": "Status (Admins)",
     "Name": "cr1ce_admin_statecode",
     "OptionSetInfoNameMapping": {
       "0": "Active",
@@ -78,48 +78,8 @@
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Status Reason (Admins)_1",
-    "Name": "cr1ce_admin_statuscode",
-    "OptionSetInfoNameMapping": {
-      "1": "Active",
-      "2": "Inactive"
-    },
-    "OptionSetIsBooleanValued": false,
-    "OptionSetIsGlobal": false,
-    "OptionSetReference": {
-      "OptionSetReferenceItem0": {
-        "OptionSetReferenceColumnName": "statuscode",
-        "OptionSetReferenceEntityName": "Admins"
-      }
-    },
-    "OptionSetTypeKey": "StatusType",
-    "RelatedColumnInvariantName": "statuscode",
-    "RelatedEntityName": "Admins",
-    "Type": "OptionSetInfo"
-  },
-  {
-    "DisplayName": "Status (Admins)",
-    "Name": "new_reserveentity_rp53fd1p1ekxpa_t7_2c724e5a2e_statecode",
-    "OptionSetInfoNameMapping": {
-      "0": "Active",
-      "1": "Inactive"
-    },
-    "OptionSetIsBooleanValued": false,
-    "OptionSetIsGlobal": false,
-    "OptionSetReference": {
-      "OptionSetReferenceItem0": {
-        "OptionSetReferenceColumnName": "statecode",
-        "OptionSetReferenceEntityName": "Admins"
-      }
-    },
-    "OptionSetTypeKey": "StateType",
-    "RelatedColumnInvariantName": "statecode",
-    "RelatedEntityName": "Admins",
-    "Type": "OptionSetInfo"
-  },
-  {
     "DisplayName": "Status Reason (Admins)",
-    "Name": "new_reserveentity_rp53fd1p1ekxpa_t7_2c724e5a2e_statuscode",
+    "Name": "cr1ce_admin_statuscode",
     "OptionSetInfoNameMapping": {
       "1": "Active",
       "2": "Inactive"
